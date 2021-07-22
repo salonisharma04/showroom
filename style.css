@@ -1,0 +1,49 @@
+body {
+    font-size: 15pt;
+    background-color: lightblue
+}
+
+.upNav {
+  overflow: hidden;
+  background-color: deepskyblue;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  font-family: cursive ; 
+}
+
+.upNav a{
+  float:left;
+  color: black;
+  font-size: 25px;
+  background-color: skyblue;
+  padding: 16px 10px;
+}
+
+.rightOptions{
+  float: right;
+}
+
+.row{
+  padding: 80px;
+  background-color: navy;
+}
+
+
+a:hover{
+  color: deepskyblue;
+}
+
+  
+#btnId{
+   border: none;
+   color: black;
+   padding: 50px 90px;
+   text-align: right;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 80px 120px;
+   margin: 5px 7px;
+   cursor: pointer;
+   font-family: cursive;
+ }
